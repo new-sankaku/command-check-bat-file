@@ -8,7 +8,7 @@ Commands that do not exist will display "NOT INSTALLED".
 Here are the execution results.
 The commands java, mvn, quasar, npm, and aws are installed.  
 The command not_found (a fictitious command) is not installed.  
-![Screenshot 2024-02-09 021500.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1618333/aaec8cda-7cce-21c2-2a21-04ad1b7acee7.png)
+![bat_result](images/bat_result.png)
 
 ```Batchfile
 @echo off
