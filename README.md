@@ -18,13 +18,13 @@ echo [94m----------------------------[0m
 echo [94mVerify command installation.[0m
 echo [94m----------------------------[0m
 
-REM 確認するコマンドのリスト
+REM check list.
 set "commands=java mvn quasar npm aws not_found"
 
-REM 各コマンドのバージョン情報を取得するためのオプション
+REM version command.
 set "version_options=java:-version mvn:-v quasar:--version npm:-v aws:--version not_found:--version"
 
-REM 確認するコマンドが存在するかをチェック
+REM command check.
 for %%i in (%commands%) do (
     set "version_option="
     for %%v in (%version_options%) do (
@@ -51,6 +51,7 @@ for %%i in (%commands%) do (
 )
 
 cmd /k echo end file.
+
 ```
 # How to Add Other Commands
 Add the command you want to check to commands.  
