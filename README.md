@@ -1,4 +1,4 @@
-# command-check-bat-file
+# 00_envCheck.bat
 # Overview
 This is a sample batch file for checking the installation status of any command.  
 If installed, it displays version information.  
